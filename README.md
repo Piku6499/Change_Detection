@@ -1,4 +1,4 @@
-# Change Detection in Remote Sensed Images using Hierarchical Vision Transformers
+# Change Detection in Remote Sensed Images using SWIN Transformer
 
 **M.Tech Thesis | CSRE, IIT Bombay**
 
@@ -44,7 +44,7 @@ The results demonstrate that the **Hierarchical Swin-based architecture** signif
 *Figure 2: A Hierarchical ViT with Shifted Windows .*
 
 ### Understanding Shifted Window Concept
-![Architecture Diagram](WindowMSA.png)
+![Architecture Diagram](Images/WindowMSA.png)
 *Figure 3: Self-attention is computed independently within each 8×8 window.*
 
 ![Architecture Diagram](Images/Shifted_WindowMSA.png)
