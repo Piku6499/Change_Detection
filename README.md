@@ -64,7 +64,7 @@ The results demonstrate that the **Hierarchical Swin-based architecture** signif
 * **Framework:** PyTorch
 * **Models:** Vision Transformer (ViT), Swin Transformer
 * **Domain:** Remote Sensing, Computer Vision
-* **Tools:** GDAL, NumPy, Matplotlib
+* **Tools:** NumPy, Matplotlib
 
 ## 🎓 Acknowledgments
 I would like to thank my advisors and the faculty at **CSRE, IIT Bombay** for their guidance throughout this Masters program.
