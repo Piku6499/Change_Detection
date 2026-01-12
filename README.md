@@ -43,12 +43,6 @@ The results demonstrate that the **Hierarchical Swin-based architecture** signif
 ![Architecture Diagram](Images/SwinTransformer_Encoder.png)
 *Figure 2: A Hierarchical ViT with Shifted Windows .*
 
-### Understanding Shifted Window Concept
-![Architecture Diagram](Images/WindowMSA.png)
-*Figure 3: Self-attention is computed independently within each 8×8 window.*
-
-![Architecture Diagram](Images/Shifted_WindowMSA.png)
-*Figure 4: Window is shifted to achieve Global attention .*
 
 ### Model Decoder Architecture
 ![Architecture Diagram](Images/Common_Decoder.png)
