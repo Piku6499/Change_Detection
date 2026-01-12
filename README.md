@@ -35,15 +35,28 @@ The results demonstrate that the **Hierarchical Swin-based architecture** signif
 ---
 
 ## 🖼️ Visualizations
-*(Note: Upload your result images to an 'assets' folder in this repo and update the paths below)*
 
-### Model Architecture
-![Architecture Diagram](assets/architecture_diagram.png)
-*Figure 1: Hierarchical ViT with 4x4 patch-based encoder and custom decoder.*
+### Model Encoder Architecture
+![Architecture Diagram](Images/VIT_Encoder.png)
+*Figure 1: Hierarchical ViT with 4x4 patch-based encoder.*
+
+![Architecture Diagram](Images/SwinTransformer_Encoder.png)
+*Figure 2: A Hierarchical ViT with Shifted Windows .*
+
+### Understanding Shifted Window Concept
+![Architecture Diagram](WindowMSA.png)
+*Figure 3: Self-attention is computed independently within each 8×8 window.*
+
+![Architecture Diagram](Images/Shifted_WindowMSA.png)
+*Figure 4: Window is shifted to achieve Global attention .*
+
+### Model Decoder Architecture
+![Architecture Diagram](Images/Common_Decoder.png)
+*Figure 5: A Common Decoder architecture.*
 
 ### Change Detection Results
-![Comparison Results](assets/results_comparison.png)
-*Figure 2: Comparison of results across different architectures and dataset sizes.*
+![Comparison Results](Images/Results.png)
+*Figure 6: Comparison of results across different architectures and dataset sizes.*
 
 ---
 
@@ -57,5 +70,5 @@ The results demonstrate that the **Hierarchical Swin-based architecture** signif
 I would like to thank my advisors and the faculty at **CSRE, IIT Bombay** for their guidance throughout this Masters program.
 
 ---
-**Author:** [Your Name]  
-**Contact:** [Your Email/LinkedIn]
+**Author:** [Priya Das]  
+**Contact:** [priya.das6499@gmail.com/https://www.linkedin.com/in/priya-das-liveyoung-livecurious/]
